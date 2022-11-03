@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "data": {
+    "images": [
+      "https://technichal.prominaagency.com/media/1/IMG_1460.JPG",
+      "https://technichal.prominaagency.com/media/2/switch.zip"
+    ]
+  },
+  "message": "Gallery retrieved successfully"
+}

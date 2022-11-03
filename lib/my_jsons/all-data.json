@@ -1,0 +1,320 @@
+
+
+
+{
+  "link":"https://www.getpostman.com/collections/4f2b49fa227d70935e11/",
+  "email":"brad.stokes@example.com",
+  "password":"password",
+  "info": {
+    "_postman_id": "20ad97c5-9b42-4f8a-a0a1-5ce36dacfe0c",
+    "name": "MyGallery",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "id": "9ee9b6da-a263-4c67-b604-7ddce8663de8",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "email",
+              "value": "swaniawski.lauren@example.net",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "password",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "{{url}}auth/login"
+      },
+      "response": [
+        {
+          "id": "2c5fc546-c0da-4127-85a7-d8e718a6b10e",
+          "name": "Login",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "swaniawski.lauren@example.net",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "password",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{url}}auth/login"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Host",
+              "value": "localhost:8000"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 29 Oct 2022 10:30:43 GMT"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 29 Oct 2022 10:30:43 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            },
+            {
+              "key": "X-Powered-By",
+              "value": "PHP/7.4.30"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, private"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "X-RateLimit-Limit",
+              "value": "60"
+            },
+            {
+              "key": "X-RateLimit-Remaining",
+              "value": "59"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"Dr. Angeline Jerde\",\n        \"email\": \"swaniawski.lauren@example.net\",\n        \"email_verified_at\": \"2022-10-29T10:29:44.000000Z\",\n        \"created_at\": \"2022-10-29T10:29:44.000000Z\",\n        \"updated_at\": \"2022-10-29T10:29:44.000000Z\"\n    },\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNGE2MGVkODM5MjlmMDAzNzIwN2E5OGQ4OGQ3ODZmMWEzMGE4YWMxNjEyZGRjZTBkZmZkY2M4ZjZiNzI2NThiNTlkNzJhNTFlNGJlYjlhYWYiLCJpYXQiOjE2NjcwMzk0NDIuOTEyODUyLCJuYmYiOjE2NjcwMzk0NDIuOTEyODU3LCJleHAiOjE2OTg1NzU0NDIuODA0NjQ0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.XIv-rCYm93m_kH-D2bmbJQ72qBsknAzM_9R1gw7wIt0GJQM_sktQa2n5REbHT590MgZmAZaCRenlyv1E1hswyatJa2_l4ev0r7ZJYmNdnhIvWrPuWxu_tG6htwU8HY24EfegFVzstcPdRbMAfAbkDiVvk1szCcyTvxQJ2BxXnZBJc_eM6wc_ugf9Lw9x23clYeNgcbEDh4skQ1gnl9vg0p5RCN5pjGvuLNyjOXJl2cB_2W4u20YWy1gaFTipghzTQ86yJwpLz_mC286v4p1jIYmJeUrrJId8pFjsDbxyNJnR7QPjXKS693bxyF6Xb4Zn23hcFVjTasac1R5DhxJSH7dbKqyuGsyiqSDu5mRZItHCDhgYWE7cmGEbXMvpSwHCVqOKUOGaz2LvlZdBMk7qkPzD8QpJ49tWLw4c3zLkxzqgZPyjHVkCCCi3FSFRwpuXEuI5aNRj-XF53VV2fi1n2AOECI_UmWUkAsSIuvA7uDmaI4U9hSvUvn7ynFAvCYuwtANMuZFqw-n4VaKOfIIhP0hSqdC3MeYcXXgAnOcsdUjOb5P28pCU6m76CP1hJlvqGZdDVJoCVOEwdQZ8AsZogjE3KGmscvGjTfcev32FhFGzyYiQjljCiwbm5OV5eH0LNWjHQD4exNP837vAtJpDWvVzoDmefnNQHlg74YMEBAY\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Upload Image",
+      "id": "f18c6e44-40d0-42e0-8c3b-b6eb8749f83a",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYTE3MTBmNTA4MzFmY2NiNDYwNGExMzY0ODJmNDFiZjU5OTEzY2JkY2ZhZmU2ZDY1OWJmZmQ5OGVkODE1MDk5MTRmNTRmMjZmZDA2NGZjZDIiLCJpYXQiOjE2NjcyODk3ODUuMDMzMTk5LCJuYmYiOjE2NjcyODk3ODUuMDMzMjAzLCJleHAiOjE2OTg4MjU3ODUuMDI2MzI0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bWImC0xkzNQe8iKxL1Scg0tGGZGUy3vWsiX1vBzj1gLvynIMJcOqVkEVZc2C3MgSaCHjyqGkN7zWyqYVqLasAaKKFmj9JiQgXozvPcHJPoJCGQQvogt-gnM0DPeFMF-g_CVJPNZ3nUkXpOLl3Os5DhvW53OVT1n5pisoNyvsrEJURWTXxt1EIxwnmoj0An8y9kq2WSX4Zn2RoVGKe3QnL-KOGKksfv2ahj7hG-ZNwVYazI6TXCIxZBCYGoZtfvq9CjTrVUcCBSiGgdyaJzAZi0lNR2c2zcZxWGbBQ_QvfTFDZmmPyogScE5cgy4MGsnYe4Sw7qLmHIrSsrMaJxRgQ_b7xobq9ob1vDhw9O-VcPpiCllEFyjMkdKOFC8UffoYZB3bafp9KZB6Dr3tS7fo6f4ojAKnj-b8g6AigjuFb4FAYlC0vxT76mtvvYFm8MjH1kH2QmJ0HzvhBxv45K9Cdtuvr3DdrwyDaoROR4eZ6S-Xp-LYuCkZ-e4UenLJC4mDUu8u6xoyLHKul3FhNlAUMj-oScKZgJxRUYhbVxzXruHwaycKdlX284-Y6cfSAf3AjIvfaXYeB1ajGuuCtYceBVGM5tDxY4i9I7kthk3DNRjaRQPIl5c8GQlYV3I3p-RItB33Y-ECNiG92U2fgB8fAVw5urOuFX7pIZZ0NEc6VAY"
+          }
+        },
+        "method": "POST",
+        "header": [
+          {
+            "warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "img",
+              "type": "file",
+              "src": "/C:/Users/xps/Pictures/IMG_1460.JPG"
+            }
+          ]
+        },
+        "url": "{{url}}upload"
+      },
+      "response": [
+        {
+          "id": "c12c5264-b5b5-4da4-a884-c0c3148b42c8",
+          "name": "Upload Image",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "img",
+                  "type": "file",
+                  "src": "/C:/Users/xps/Pictures/IMG_1460.JPG"
+                }
+              ]
+            },
+            "url": "{{url}}upload"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Host",
+              "value": "localhost:8000"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 29 Oct 2022 10:32:45 GMT"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 29 Oct 2022 10:32:45 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            },
+            {
+              "key": "X-Powered-By",
+              "value": "PHP/7.4.30"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, private"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "X-RateLimit-Limit",
+              "value": "60"
+            },
+            {
+              "key": "X-RateLimit-Remaining",
+              "value": "59"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"status\": \"success\",\n    \"data\": [],\n    \"message\": \"Image uploaded successfully\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "my gallery",
+      "id": "24001cdd-7de6-4870-8b0a-85b60608edc0",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYTE3MTBmNTA4MzFmY2NiNDYwNGExMzY0ODJmNDFiZjU5OTEzY2JkY2ZhZmU2ZDY1OWJmZmQ5OGVkODE1MDk5MTRmNTRmMjZmZDA2NGZjZDIiLCJpYXQiOjE2NjcyODk3ODUuMDMzMTk5LCJuYmYiOjE2NjcyODk3ODUuMDMzMjAzLCJleHAiOjE2OTg4MjU3ODUuMDI2MzI0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bWImC0xkzNQe8iKxL1Scg0tGGZGUy3vWsiX1vBzj1gLvynIMJcOqVkEVZc2C3MgSaCHjyqGkN7zWyqYVqLasAaKKFmj9JiQgXozvPcHJPoJCGQQvogt-gnM0DPeFMF-g_CVJPNZ3nUkXpOLl3Os5DhvW53OVT1n5pisoNyvsrEJURWTXxt1EIxwnmoj0An8y9kq2WSX4Zn2RoVGKe3QnL-KOGKksfv2ahj7hG-ZNwVYazI6TXCIxZBCYGoZtfvq9CjTrVUcCBSiGgdyaJzAZi0lNR2c2zcZxWGbBQ_QvfTFDZmmPyogScE5cgy4MGsnYe4Sw7qLmHIrSsrMaJxRgQ_b7xobq9ob1vDhw9O-VcPpiCllEFyjMkdKOFC8UffoYZB3bafp9KZB6Dr3tS7fo6f4ojAKnj-b8g6AigjuFb4FAYlC0vxT76mtvvYFm8MjH1kH2QmJ0HzvhBxv45K9Cdtuvr3DdrwyDaoROR4eZ6S-Xp-LYuCkZ-e4UenLJC4mDUu8u6xoyLHKul3FhNlAUMj-oScKZgJxRUYhbVxzXruHwaycKdlX284-Y6cfSAf3AjIvfaXYeB1ajGuuCtYceBVGM5tDxY4i9I7kthk3DNRjaRQPIl5c8GQlYV3I3p-RItB33Y-ECNiG92U2fgB8fAVw5urOuFX7pIZZ0NEc6VAY"
+          }
+        },
+        "method": "GET",
+        "header": [],
+        "url": "{{url}}my-gallery"
+      },
+      "response": [
+        {
+          "id": "ac0c09bb-50bc-4bd8-b810-4b697490338e",
+          "name": "my gallery",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": "{{url}}my-gallery"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Host",
+              "value": "localhost:8000"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 29 Oct 2022 10:33:29 GMT"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 29 Oct 2022 10:33:29 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            },
+            {
+              "key": "X-Powered-By",
+              "value": "PHP/7.4.30"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, private"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "X-RateLimit-Limit",
+              "value": "60"
+            },
+            {
+              "key": "X-RateLimit-Remaining",
+              "value": "57"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"images\": [\n            \"http://localhost:8000/media/1/IMG_1460.JPG\",\n            \"http://localhost:8000/media/2/IMG_1460.JPG\",\n            \"http://localhost:8000/media/3/IMG_1460.JPG\"\n        ]\n    },\n    \"message\": \"Gallery retrieved successfully\"\n}"
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "c6d26e51-000f-48eb-88d3-d61d48378760",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "8dd889f2-1bf6-414c-b65d-29046cd49294",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "085830d4-2c45-438f-b1bc-758ba55a0bbe",
+      "key": "url",
+      "value": "https://technichal.prominaagency.com/api/",
+      "type": "string"
+    }
+  ]
+}
